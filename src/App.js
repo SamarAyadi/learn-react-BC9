@@ -12,9 +12,9 @@ function App() {
         <div style={{ display: "flex" , width:"60%" }}>
           {/* POSTS CONTAINER */}
           <div style={{ width: "70%" }}>
-            <Post />
-            <Post />
-            <Post />
+            <Post postName="PinguCoder" postBody="platform e learning " />
+            <Post postName="PinguCoder 🐧🐧" postBody="Web development " />
+            <Post postName="PinguCoder 😀😀" postBody="Coding " />
             <Post />
             <Post />
             <Post />
