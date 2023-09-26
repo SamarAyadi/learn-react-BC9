@@ -19,6 +19,7 @@ function SideMenu() {
       </TagButton>
       <TagButton title="Programming 👨🏻‍🏫👨🏻‍🏫" />
       <TagButton title="Self Improvement 👨🏻‍🏫👨🏻‍🏫" />
+      <TagButton  />
 
       {/* <TagButton />
            <TagButton />
