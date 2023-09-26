@@ -1,7 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const tasks = [
+    { id: 1, title: "Doing my Homeworks" },
+    { id: 2, title: "Reding a book" },
+    { id: 3, title: "Studying" },
+    { id: 4, title: "Cleaning my Room" },
+    { id: 5, title: "Learn React" },
+  ];
+  const myTasksList = tasks.map((task) => {
+    return (
+      <li style={{ background: "green" }} key={task.id}>
+        <h1>{task.title}</h1>
+      </li>
+    );
+  });
+
+ 
   return (
     <div className="App">
       <header className="App-header">
@@ -9,14 +25,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <ul>{myTasksList}</ul>
+        </div>
       </header>
     </div>
   );
