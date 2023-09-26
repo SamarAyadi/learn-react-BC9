@@ -1,6 +1,7 @@
+import "./MyFirstComponent.css";
 function MyFirstComponent() {
   const person = {
-    name: "Samar",
+    name: "Pingu",
     email: "we@lota.me",
   };
 
@@ -21,9 +22,12 @@ function MyFirstComponent() {
         >
           {person.name}
         </h1>
-        <h3 style={{ backgroundColor: "green" }}>{person.email}</h3>
-        <h2 style={elemStyle}>hi</h2>
+        <h3 className={"active redBg "}>{person.email}</h3>
+        <h2 className={"active"} style={elemStyle}>
+          hi
+        </h2>
         <button onClick={sayHello}>Click Me</button>
+        <h1 className={person.name == "Samar" ? "redBg" : "greenBg"}>Check Name</h1>
       </div>
       <div></div>
     </>
