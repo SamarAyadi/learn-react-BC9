@@ -1,0 +1,16 @@
+.tagButton {
+    background: #1d9bf0;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+      /* background: "#1d9bf0", border: "none" */
+  }
+  
+  .tagButton:hover{
+      background: #0569ac;
+  }
