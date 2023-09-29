@@ -4,6 +4,8 @@ import Header from './Header';
 import Post from './Post';
 import SideMenu from './SideMenu';
 function App() {
+
+  
   return (
     <div className="App">
       <Header />
